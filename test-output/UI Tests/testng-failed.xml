@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [UI Tests]" parallel="methods">
+  <test thread-count="1" name="Funtional Testing(failed)" parallel="methods">
+    <classes>
+      <class name="tests.ToBeReviewedTest">
+        <methods>
+          <include name="ValidateNoChangeOnToBeReviewedSurvey"/>
+          <include name="MethodTearDown"/>
+          <include name="ValidateNonComplianceOnToBeReviewedSurvey"/>
+          <include name="setup"/>
+          <include name="ValidateScoreOnToBeReviewedSurvey"/>
+        </methods>
+      </class> <!-- tests.ToBeReviewedTest -->
+      <class name="tests.SuperUserTest">
+        <methods>
+          <include name="TestEntityExists"/>
+          <include name="TestLoginAsSuperUser"/>
+          <include name="MethodTearDown"/>
+          <include name="TestResponsibleUserSettingsExists"/>
+          <include name="TestEntitySettingsExists"/>
+          <include name="setup"/>
+          <include name="TestResponsibleUserExists"/>
+        </methods>
+      </class> <!-- tests.SuperUserTest -->
+      <class name="tests.CurrentSurveyTest">
+        <methods>
+          <include name="ValidateStartSurvey"/>
+          <include name="MethodTearDown"/>
+          <include name="ValidateSurveyStarted"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- tests.CurrentSurveyTest -->
+      <class name="tests.loginTest">
+        <methods>
+          <include name="MethodTearDown"/>
+          <include name="setup"/>
+          <include name="TestUserCanLogin"/>
+        </methods>
+      </class> <!-- tests.loginTest -->
+      <class name="tests.UserLoggedInTest">
+        <methods>
+          <include name="MethodTearDown"/>
+          <include name="CompletedTable"/>
+          <include name="CurrentTable"/>
+          <include name="ToBeReviewedTable"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- tests.UserLoggedInTest -->
+    </classes>
+  </test> <!-- Funtional Testing(failed) -->
+</suite> <!-- Failed suite [UI Tests] -->

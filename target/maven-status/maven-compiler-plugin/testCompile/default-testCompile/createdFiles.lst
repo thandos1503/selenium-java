@@ -1,0 +1,15 @@
+custom\gmailApi.class
+actions\click.class
+actions\scroll.class
+pages\homepage.class
+actions\find.class
+actions\wait$1.class
+tests\HomePageLoggedOutTest.class
+browser\BaseClass.class
+pages\loggedinpage.class
+pages\Responsibleuserloggedinpage.class
+actions\text.class
+actions\wait.class
+tests\loginTest.class
+config\PropertiesFile.class
+tests\UserLoggedInTest.class

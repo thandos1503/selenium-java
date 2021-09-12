@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: tests.DemoTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 14.08 s <<< FAILURE! - in tests.DemoTest
+tests.DemoTest.DemoTestToBeReviewed  Time elapsed: 0.029 s  <<< FAILURE!
+java.lang.NullPointerException
+	at tests.DemoTest.DemoTestToBeReviewed(DemoTest.java:24)
+
